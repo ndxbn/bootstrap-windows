@@ -21,7 +21,7 @@ choco feature enable -n allowEmptyChecksums
 `chocolatey` で、`git`とか`wget`とかのコマンドパッケージをインストールする。
 
 ```powershell
-cinst -y 7zip ChromeDriver2 curl git greenshot javaruntime jdk8 jre8 mysql MySql.Utilities mysql.workbench nodejs notepadplusplus php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals vagrant virtualbox vlc wget whois winmerge-jp
+cinst -y 7zip ChromeDriver2 curl git greenshot javaruntime jdk8 mysql MySql.Utilities mysql.workbench nodejs notepadplusplus php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals vagrant virtualbox vlc wget whois winmerge-jp
 ```
 
 自宅のデスクトップPCの場合は、以下のコマンドパッケージも追加でインストールする。
