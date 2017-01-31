@@ -36,3 +36,11 @@ cinst -y ffmpeg plantuml wireshark yumi
 * [astah](http://astah.change-vision.com/ja/)
 * [Google IME](https://www.google.co.jp/ime/)
 * [IntelliJ](https://www.jetbrains.com/)
+* [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
+
+## 自分が普段使うディレクトリを作る
+
+```cmd
+md C:\tmp
+md %Userprofile%\Documents\repos
+```
