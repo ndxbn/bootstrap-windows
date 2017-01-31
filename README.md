@@ -37,6 +37,7 @@ cinst -y ffmpeg plantuml wireshark yumi
 * [Google IME](https://www.google.co.jp/ime/)
 * [IntelliJ](https://www.jetbrains.com/)
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
+* [GitHub Desktop](https://desktop.github.com/)
 
 ## 自分が普段使うディレクトリを作る
 
