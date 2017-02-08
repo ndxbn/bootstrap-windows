@@ -1,0 +1,1 @@
+FOR /f "usebackq" %%t IN (`%2`) DO SET %1=%%t
