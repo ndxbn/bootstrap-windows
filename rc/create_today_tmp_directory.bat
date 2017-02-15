@@ -1,4 +1,4 @@
-REM ECHO off
+ECHO off
 REM make todays temp directory
 SET today_formated=%date:/=_%
 SET today_tmp_directory_path=%userprofile%\documents\tmp\%today_formated%
