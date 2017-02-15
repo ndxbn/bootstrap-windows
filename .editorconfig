@@ -8,6 +8,9 @@ trim_trailing_whitespace = true
 indent_style = space
 indent_size = 4
 
+[*.bat]
+end_of_line = crlf
+
 [*.json]
 indent_size = 2
 
