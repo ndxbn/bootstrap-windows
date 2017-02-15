@@ -1,11 +1,6 @@
+
 # my_windows_builder
 my windows working environment build scripts
-
-# useradd
-管理者権限持ち（≒Administratorグループ）のユーザしか作られていない場合、常用のユーザとして一般ユーザをつくる。
-
-* Administratorグループのユーザのパスワードの設定
-* Userグループのユーザの作成・パスワード設定
 
 # package installation
 ## install chocolatey
@@ -38,11 +33,4 @@ cinst -y ffmpeg plantuml wireshark yumi
 * [Google IME](https://www.google.co.jp/ime/)
 * [IntelliJ](https://www.jetbrains.com/)
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
-* [GitHub Desktop](https://desktop.github.com/)
-
-## 自分が普段使うディレクトリを作る
-
-```cmd
-md C:\tmp
-md %Userprofile%\Documents\repos
-```
+* [Git Kraken](https://www.gitkraken.com/)
