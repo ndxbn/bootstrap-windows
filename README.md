@@ -29,7 +29,8 @@ cinst -y ffmpeg plantuml wireshark yumi
 ```
 
 ## install yourself (without chocolatey)
-以下のソフトウェアは、self update できるので、chocolatey を使用しない。
+chocolatey を使用せず、手動でインストールする。
+
 ### self update できるもの
 
 以下のソフトウェアは、ソフトウェア自身で `self-update` できるため、 手動でインストールする。
@@ -43,8 +44,8 @@ chocolatey によるバージョン管理配下から外すことを目的とし
 
 ### 依存パッケージがコリジョンするもの
 以下のソフトウェアは、Chocolateyでもインストールできなくはないが、
-Chocolateryでインストールする他のソフトウェアの Visual C++ とバージョンがコリジョンするため、
-手動でインストールするもの。
+Chocolateryでインストールする他のソフトウェアの Visual C++ とバージョンがコリジョンすることがあるため、
+手動でインストールする。
 
 * [hub](https://github.com/github/hub/releases/latest)
 
