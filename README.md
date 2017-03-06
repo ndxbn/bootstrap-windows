@@ -30,6 +30,10 @@ cinst -y ffmpeg plantuml wireshark yumi
 
 ## install yourself (without chocolatey)
 以下のソフトウェアは、self update できるので、chocolatey を使用しない。
+### self update できるもの
+
+以下のソフトウェアは、ソフトウェア自身で `self-update` できるため、 手動でインストールする。
+chocolatey によるバージョン管理配下から外すことを目的としている。
 
 * [astah](http://astah.change-vision.com/ja/)
 * [Google IME](https://www.google.co.jp/ime/)
@@ -37,8 +41,14 @@ cinst -y ffmpeg plantuml wireshark yumi
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
 * [Git Kraken](https://www.gitkraken.com/)
 
+### 依存パッケージがコリジョンするもの
 以下のソフトウェアは、Chocolateyでもインストールできなくはないが、
 Chocolateryでインストールする他のソフトウェアの Visual C++ とバージョンがコリジョンするため、
 手動でインストールするもの。
 
 * [hub](https://github.com/github/hub/releases/latest)
+
+### chocolatey でインストールできないもの
+以下のソフトウェアは、 chocolatey でインストール出来ないため、手動でインストールする。
+
+* [conmposer](https://getcomposer.org/)
