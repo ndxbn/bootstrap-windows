@@ -36,3 +36,9 @@ cinst -y ffmpeg plantuml wireshark yumi
 * [IntelliJ](https://www.jetbrains.com/)
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
 * [Git Kraken](https://www.gitkraken.com/)
+
+以下のソフトウェアは、Chocolateyでもインストールできなくはないが、
+Chocolateryでインストールする他のソフトウェアの Visual C++ とバージョンがコリジョンするため、
+手動でインストールするもの。
+
+* [hub](https://github.com/github/hub/releases/latest)
