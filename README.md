@@ -2,7 +2,9 @@
 # my_windows_builder
 my windows working environment build scripts
 
-# package installation
+# Installation
+常用している各種ソフトウェアやライブラリなどのインストールをする。
+
 ## install chocolatey
 `chocolatey` 自体のインストールをする。[公式ページはこちら](https://chocolatey.org/install)。
 いくつかのパッケージがチェックサムをちゃんと提供してくれていないっぽいので、`allow empty checksums` オプションを
