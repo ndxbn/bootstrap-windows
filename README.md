@@ -43,8 +43,8 @@ chocolatey によるバージョン管理配下から外すことを目的とし
 * [Git Kraken](https://www.gitkraken.com/)
 
 ### 依存パッケージがコリジョンするもの
-以下のソフトウェアは、Chocolateyでもインストールできなくはないが、
-Chocolateryでインストールする他のソフトウェアの Visual C++ とバージョンがコリジョンすることがあるため、
+以下のソフトウェアは、 chocolatey でもインストールできなくはないが、
+chocolatey でインストールする他のソフトウェアの Visual C++ とバージョンがコリジョンすることがあるため、
 手動でインストールする。
 
 * [hub](https://github.com/github/hub/releases/latest)
