@@ -7,6 +7,16 @@ my windows working environment build scripts
 
 ## install chocolatey
 `chocolatey` 自体のインストールをする。[公式ページはこちら](https://chocolatey.org/install)。
+
+### Execution Policy を Chocolatey のインストール時のみ、ゆるめておく
+実行中のプロセスでのみ、 `RemoteSigned` にしておく。
+
+```posershell
+Set-ExecutionPolicy RemoteSigned -Scope Process
+```
+
+### chocolatey 本体のインストール
+
 いくつかのパッケージがチェックサムをちゃんと提供してくれていないっぽいので、`allow empty checksums` オプションを
 デフォルトでつけるようにしておく。
 
