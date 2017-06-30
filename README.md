@@ -29,13 +29,13 @@ choco feature enable -n allowEmptyChecksums
 `chocolatey` で、`git`とか`wget`とかのコマンドパッケージをインストールする。
 
 ```powershell
-cinst -y 7zip ChromeDriver2 curl git greenshot javaruntime jdk8 mysql MySql.Utilities mysql.workbench nodejs notepadplusplus php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals vagrant virtualbox vlc wget whois winmerge-jp
+cinst -y 7zip ChromeDriver2 curl git greenshot hub javaruntime jdk8 linkshellextension mysql MySql.Utilities mysql.workbench nodejs notepadplusplus plantuml php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals vagrant virtualbox vlc wget whois winmerge-jp
 ```
 
 自宅のデスクトップPCの場合は、以下のコマンドパッケージも追加でインストールする。
 
 ```powershell
-cinst -y ffmpeg plantuml wireshark yumi
+cinst -y ffmpeg wireshark yumi
 ```
 
 ## install yourself (without chocolatey)
@@ -51,13 +51,6 @@ chocolatey によるバージョン管理配下から外すことを目的とし
 * [IntelliJ](https://www.jetbrains.com/)
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
 * [Git Kraken](https://www.gitkraken.com/)
-
-### 依存パッケージがコリジョンするもの
-以下のソフトウェアは、 chocolatey でもインストールできなくはないが、
-chocolatey でインストールする他のソフトウェアの Visual C++ とバージョンがコリジョンすることがあるため、
-手動でインストールする。
-
-* [hub](https://github.com/github/hub/releases/latest)
 
 ### chocolatey でインストールできないもの
 以下のソフトウェアは、 chocolatey でインストール出来ないため、手動でインストールする。
