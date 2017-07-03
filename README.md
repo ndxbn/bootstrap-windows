@@ -9,7 +9,7 @@ my windows working environment build scripts
 [公式ページはこちら](https://chocolatey.org/install)。
 
 ### 管理者権限で PowerShell を起動
-スタートボダンを右クリック もしくは <kbd>Win</kbd + <kbd>x</kbd> から、PowerShell を管理者権限で起動する。
+スタートボタンを右クリック もしくは <kbd>Win</kbd> + <kbd>x</kbd> から、PowerShell を管理者権限で起動する。
 ミドルウェアなどは OS に対してインストールするものなので、管理者権限が必要になる。
 以後、コマンドはこの PowerShell コンソールで行う。
 
