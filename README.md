@@ -38,7 +38,7 @@ cinst -y 7zip ChromeDriver2 curl git greenshot hub javaruntime jdk8 linkshellext
 cinst -y ffmpeg wireshark yumi
 ```
 
-## install yourself (without chocolatey)
+## install manually
 chocolatey を使用せず、手動でインストールする。
 
 ### self update できるもの
@@ -51,6 +51,13 @@ chocolatey によるバージョン管理配下から外すことを目的とし
 * [IntelliJ](https://www.jetbrains.com/)
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
 * [Git Kraken](https://www.gitkraken.com/)
+
+### chocolatey で提供されていない
+
+以下のソフトウェアは、chocolatey でインストールすることができない。
+
+* [OBS Studio](https://obsproject.com/)
+
 
 ### chocolatey でインストールできないもの
 以下のソフトウェアは、 chocolatey でインストール出来ないため、手動でインストールする。
