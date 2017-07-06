@@ -75,7 +75,7 @@ cinst -y 7zip ChromeDriver2 curl ffmpeg git greenshot hub javaruntime jdk8 links
 ```
 
 ## Install Manually
-この章では、諸事情で Chocolatey を使用せずに手動でインストールするものを説明する。
+諸事情で Chocolatey を使用せずに手動でインストールするものを説明する。
 
 ### Self Update できるもの
 以下のソフトウェアは、ソフトウェア自身で self update できるため、 手動でインストールする。
