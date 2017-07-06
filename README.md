@@ -35,16 +35,10 @@ choco feature enable -n allowEmptyChecksums
 ## Install Command and Library Packages
 `Chocolatey` で、`git`とか`wget`とかのコマンドパッケージをインストールする。
 
-```powershell
-cinst -y 7zip ChromeDriver2 curl git greenshot hub javaruntime jdk8 linkshellextension mysql MySql.Utilities mysql.workbench nodejs notepadplusplus plantuml php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals vagrant virtualbox vlc wget whois winmerge-jp
-```
-
-TIPS: 上のコードは1行になっている。トリプルクリックすると1行全体を選択することができる。
-
-プライベートなPCの場合は、以下のコマンドパッケージも追加でインストールする。
+このコードは1行になっているため、トリプルクリックで全体を選択することができる。
 
 ```powershell
-cinst -y ffmpeg wireshark yumi
+cinst -y 7zip ChromeDriver2 curl ffmpeg git greenshot hub javaruntime jdk8 linkshellextension mysql MySql.Utilities mysql.workbench nodejs notepadplusplus plantuml php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals vagrant virtualbox vlc wget whois winmerge-jp wireshark yumi
 ```
 
 ## Install Manually
