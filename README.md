@@ -4,15 +4,15 @@ my windows working environment build scripts
 開発環境のセットアップすることは、「マシンを1台セットアップする」ことに他ならないので、[Provisioning Toolchain](https://conferences.oreilly.com/velocity/velocity-mar2010/public/schedule/detail/14180)の概念に則って説明する。
 
 * `Bootstraping` は、[Bootstraping](#bootstraping) を参照
-* `Configuration` は、 [Configuration](#configuration) を参照
+* `Configuration` は、 [Installation](#installation) を参照
 * `Orchestration` は、いまのところ、ない
 
 # Bootstraping
 いくつかのディレクトリの作成や、構成の変更などを行う。
 これらは、ソフトウェアのインストールや Windows の挙動そのものを変更するものが含まれるため、最初に行う。
 
-* [システムレベルのディレクトリの調整](#C:ドライブ直下にディレクトリを作成)
-* [ハードディスクのマウントポイントの設定] (#D:ドライブがある場合)
+* [システムレベルのディレクトリの調整](#cドライブ直下にディレクトリを作成)
+* [ハードディスクのマウントポイントの設定] (#dドライブがある場合)
 
 ## C:ドライブ直下にディレクトリを作成
 全ユーザに共通して使用するディレクトリを作成する。
