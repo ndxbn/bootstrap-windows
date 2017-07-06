@@ -90,3 +90,20 @@ Chocolatey によるバージョン管理配下から外すことを目的とし
 
 * [conmposer](https://getcomposer.org/)
 * [OBS Studio](https://obsproject.com/)
+
+## 各ソフトウェアの設定
+インストールしたソフトウェアの設定を行う。
+
+### GreenShot
+以下の画像のような設定にする。
+
+![2017-07-06_16-18-00_000044](https://user-images.githubusercontent.com/2140131/27899813-bd16fd68-6266-11e7-8be6-c6d1a3ca7759.png)
+![2017-07-06_16-18-01_000045](https://user-images.githubusercontent.com/2140131/27899815-bd1f0468-6266-11e7-8a1e-03e066817dd4.png)
+![2017-07-06_16-18-01_000046](https://user-images.githubusercontent.com/2140131/27899814-bd1ab778-6266-11e7-8328-904da78d991f.png)
+![2017-07-06_16-18-02_000047](https://user-images.githubusercontent.com/2140131/27899816-bd35786a-6266-11e7-978f-dc302d86a731.png)
+![2017-07-06_16-17-57_000041](https://user-images.githubusercontent.com/2140131/27899817-bd3791c2-6266-11e7-8151-936a6bd6aa97.png)
+![2017-07-06_16-17-58_000042](https://user-images.githubusercontent.com/2140131/27899818-bd3a17ee-6266-11e7-9e18-df942ed158d1.png)
+![2017-07-06_16-17-59_000043](https://user-images.githubusercontent.com/2140131/27899819-bd3b0dd4-6266-11e7-910c-cecc068a68e0.png)
+
+
+設定ファイルには、設定のみならず、キャッシュやヒストリーなどの情報も含まれており、バージョン管理の対象に含めるべきではなかった。
