@@ -37,14 +37,16 @@ Windows では、ユーザごとの一時ファイルなどはあるが、シス
 # Installation
 常用している各種ソフトウェアやライブラリなどのインストールをする。
 
-## Install Chocolatey
-この章では `chocolatey` 自体のインストールをする手順を説明する。
-[公式ページはこちら](https://chocolatey.org/install)。
+* [Chocolatey をインストールし、Chocolatey でインストール](#install-via-chocolatey)
+* [いくつかのソフトウェアを、手動でインストール](#install-manually)
+
+## Install via Chocolatey
+Chocolatey 自体のインストールと、Chocolatey を用いたインストールをする手順を説明する。
+[Chocolatey の公式ページはこちら](https://chocolatey.org/install)。
 
 ### 管理者権限で PowerShell を起動
-スタートボタンを右クリック もしくは <kbd>Win</kbd> + <kbd>x</kbd> から、PowerShell を管理者権限で起動する。
-ミドルウェアなどは OS に対してインストールするものなので、管理者権限が必要になる。
-以後、コマンドはこの PowerShell コンソールで行う。
+PowerShell を管理者権限で起動する。
+スタートボタンを右クリック もしくは <kbd>Win</kbd> + <kbd>x</kbd> から起動できる。
 
 ### Execution Policy を Chocolatey のインストール時のみ、ゆるめておく
 開いている PowerShell のプロセスでのみ、 `RemoteSigned` にしておく。
@@ -55,19 +57,15 @@ Set-ExecutionPolicy RemoteSigned -Scope Process
 ```
 
 ### Chocolatey 本体のインストール
-Chocolatey をインストールする。
-
-いくつかのパッケージがチェックサムをちゃんと提供してくれていないようなので、
-`allow empty checksums` オプションをデフォルトでつけるようにしておく。
+いくつかのパッケージがチェックサムをちゃんと提供してくれていないようなので、`allow empty checksums` オプションをデフォルトでつけるようにしておく。
 
 ```powershell
 iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
 choco feature enable -n allowEmptyChecksums
 ```
 
-## Install Command and Library Packages
-`Chocolatey` で、`git`とか`wget`とかのコマンドパッケージをインストールする。
-
+### Install Command and Library Packages
+以下のコードをコピペして実行する。
 このコードは1行になっているため、トリプルクリックで全体を選択することができる。
 
 ```powershell
