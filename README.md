@@ -83,7 +83,7 @@ Chocolatey によるバージョン管理配下から外すことを目的とし
 * [Google IME](https://www.google.co.jp/ime/)
 * [IntelliJ](https://www.jetbrains.com/)
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
-* [Git Kraken](https://www.gitkraken.com/)
+* [Source Tree](https://www.sourcetreeapp.com/)
 
 ### Chocolatey でインストールできないもの
 以下のソフトウェアは、 chocolatey でインストール出来ないため、手動でインストールする。
