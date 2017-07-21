@@ -69,7 +69,7 @@ choco feature enable -n allowEmptyChecksums
 このコードは1行になっているため、トリプルクリックで全体を選択することができる。
 
 ```powershell
-cinst -y 7zip ChromeDriver2 curl ffmpeg git greenshot hub javaruntime jdk8 linkshellextension mysql MySql.Utilities mysql.workbench nodejs notepadplusplus plantuml php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals vagrant virtualbox vlc wget whois winmerge-jp wireshark yumi
+cinst -y 7zip ChromeDriver2 curl ffmpeg git greenshot hub javaruntime jdk8 linkshellextension mysql MySql.Utilities mysql.workbench nodejs notepadplusplus plantuml php putty.portable python rsync ruby screentogif SQLite sqlite.analyzer sqlite.shell sysinternals teraterm vagrant virtualbox vlc wget whois winmerge-jp wireshark yumi
 ```
 
 ## Install Manually
