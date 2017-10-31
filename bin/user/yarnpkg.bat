@@ -1,0 +1,1 @@
+"%APPDATA%\npm\yarnpkg.cmd" %*

@@ -1,0 +1,1 @@
+cmd.exe /K "@chcp 65001"
