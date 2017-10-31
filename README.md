@@ -17,10 +17,10 @@ my windows working environment build scripts
 事前にどのディレクトリをどのようにマップし直すかを検討し、実施する。
 
 普段は、「ライブラリ」にあるディレクトリすべてを、 `D:\Users\%UserName%` へ移動し、シンボリックリンクを作成している。
-「ライブラリ」のディレクトリ以外は、キャッシュなどの都合で頻繁にアクセスされるため、より高速であることが期待される C:\ に残しておくことが多い。
+「ライブラリ」のディレクトリ以外は、キャッシュなどの都合で頻繁にアクセスされるため、より高速であることが期待される C:ドライブ に残しておくことが多い。
 
 ディスクのマウントは、管理者権限のあるユーザで行うが、ディレクトリの構成変更は、セーフモードで実施する必要がある。
-ユーザのログインそのものに影響するため。
+理由は、ユーザのログインそのものに影響するため。
 
 # Installation
 常用している各種ソフトウェアやライブラリなどのインストールをする。
@@ -69,7 +69,7 @@ Chocolatey によるバージョン管理配下から外すことを目的とし
 
 * [astah](http://astah.change-vision.com/ja/)
 * [Google IME](https://www.google.co.jp/ime/)
-* [IntelliJ](https://www.jetbrains.com/)
+* [Jetbrains Toolbox App](https://www.jetbrains.com/toolbox/app/)（IntelliJ などの IDE は、toolbox 経由で管理）
 * [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
 * [Source Tree](https://www.sourcetreeapp.com/)
 
