@@ -60,6 +60,15 @@ choco feature enable -n allowEmptyChecksums
 cinst -y 7zip ChromeDriver2 curl ffmpeg git greenshot hub javaruntime jdk8 linkshellextension mysql MySql.Utilities mysql.workbench nodejs notepadplusplus plantuml php putty.portable powershell python rapidee rsync ruby screentogif specialfoldersview SQLite sqlite.analyzer sqlite.shell sysinternals teraterm vagrant virtualbox vlc wget whois winmerge-jp yumi
 ```
 
+### node-gyp を動くようにする
+npm の `windows-build-tools` をインストールする。
+
+管理者権限で、
+
+```
+npm i --global windows-build-tools
+```
+
 ## Install Manually
 諸事情で Chocolatey を使用せずに手動でインストールするものを説明する。
 
