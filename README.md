@@ -1,5 +1,3 @@
-move to https://github.com/ndxbn/ndxbn
-
 # my_windows_builder
 my windows working environment build scripts
 
