@@ -57,7 +57,7 @@ choco feature enable -n allowEmptyChecksums
 このコードは1行になっているため、トリプルクリックで全体を選択することができる。
 
 ```powershell
-cinst -y 7zip ChromeDriver2 ffmpeg git greenshot javaruntime jdk8 linkshellextension mysql.workbench nodejs plantuml php powershell python rapidee rsync ruby screentogif specialfoldersview sysinternals vagrant virtualbox winmerge-jp yumi
+cinst -y 7zip ChromeDriver2 ffmpeg git greenshot javaruntime jdk8 linkshellextension mysql.workbench nodejs plantuml php powershell rapidee rsync ruby screentogif specialfoldersview sysinternals vagrant virtualbox winmerge-jp
 ```
 
 ### node-gyp を動くようにする
