@@ -76,11 +76,8 @@ npm i --global windows-build-tools
 以下のソフトウェアは、ソフトウェア自身で self update できるため、 手動でインストールする。
 Chocolatey によるバージョン管理配下から外すことを目的としている。
 
-- [astah](http://astah.change-vision.com/ja/)
 - [Google IME](https://www.google.co.jp/ime/)
 - [Jetbrains Toolbox App](https://www.jetbrains.com/toolbox/app/)（IntelliJ などの IDE は、toolbox 経由で管理）
-- [SAO Util](http://www.gpbeta.com/ja/post/develop/sao-utils/)
-- [Source Tree](https://www.sourcetreeapp.com/)
 - [Notepad++](https://notepad-plus-plus.org/download/)
 
 ### Chocolatey でインストールできないもの
@@ -88,7 +85,6 @@ Chocolatey によるバージョン管理配下から外すことを目的とし
 
 - [conmposer](https://getcomposer.org/)
 - [OBS Studio](https://obsproject.com/)
-- [wireshark](https://www.wireshark.org/)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定を行う。
