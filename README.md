@@ -79,6 +79,7 @@ npm i --global windows-build-tools
 - [linkshellextension](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
 - [conmposer](https://getcomposer.org/)
 - [OBS Studio](https://obsproject.com/)
+- [IPAフォント](https://ipafont.ipa.go.jp/old/ipafont/download.html)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定を行う。
