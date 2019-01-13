@@ -57,7 +57,7 @@ choco feature enable -n allowEmptyChecksums
 このコードは1行になっているため、トリプルクリックで全体を選択することができる。
 
 ```powershell
-cinst -y 7zip ChromeDriver2 ffmpeg git greenshot javaruntime jdk8 linkshellextension mysql.workbench nodejs plantuml php powershell rapidee rsync ruby screentogif specialfoldersview sysinternals vagrant virtualbox winmerge-jp
+cinst -y 7zip ChromeDriver2 ffmpeg git greenshot javaruntime jdk8 mysql.workbench nodejs plantuml php powershell rapidee rsync ruby screentogif specialfoldersview sysinternals vagrant virtualbox
 ```
 
 ### node-gyp を動くようにする
@@ -79,6 +79,8 @@ Chocolatey によるバージョン管理配下から外すことを目的とし
 - [Google IME](https://www.google.co.jp/ime/)
 - [Jetbrains Toolbox App](https://www.jetbrains.com/toolbox/app/)（IntelliJ などの IDE は、toolbox 経由で管理）
 - [Notepad++](https://notepad-plus-plus.org/download/)
+- [winmerge-jp](https://winmergejp.bitbucket.io/)
+- [linkshellextension](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
 
 ### Chocolatey でインストールできないもの
 以下のソフトウェアは、 chocolatey でインストール出来ないため、手動でインストールする。
