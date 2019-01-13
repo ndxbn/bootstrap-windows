@@ -72,19 +72,11 @@ npm i --global windows-build-tools
 ## Install Manually
 諸事情で Chocolatey を使用せずに手動でインストールするものを説明する。
 
-### Self Update できるもの
-以下のソフトウェアは、ソフトウェア自身で self update できるため、 手動でインストールする。
-Chocolatey によるバージョン管理配下から外すことを目的としている。
-
 - [Google IME](https://www.google.co.jp/ime/)
 - [Jetbrains Toolbox App](https://www.jetbrains.com/toolbox/app/)（IntelliJ などの IDE は、toolbox 経由で管理）
 - [Notepad++](https://notepad-plus-plus.org/download/)
 - [winmerge-jp](https://winmergejp.bitbucket.io/)
 - [linkshellextension](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
-
-### Chocolatey でインストールできないもの
-以下のソフトウェアは、 chocolatey でインストール出来ないため、手動でインストールする。
-
 - [conmposer](https://getcomposer.org/)
 - [OBS Studio](https://obsproject.com/)
 
