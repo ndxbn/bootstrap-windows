@@ -81,6 +81,7 @@ npm i --global windows-build-tools
 - [OBS Studio](https://obsproject.com/)
 - [IPAフォント](https://ipafont.ipa.go.jp/old/ipafont/download.html)
 - [Windows Subsystem for Linux](https://docs.microsoft.com/ja-jp/windows/wsl/install-win10)
+- [Discord](https://discordapp.com/)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定を行う。
