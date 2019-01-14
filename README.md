@@ -80,6 +80,7 @@ npm i --global windows-build-tools
 - [conmposer](https://getcomposer.org/)
 - [OBS Studio](https://obsproject.com/)
 - [IPAフォント](https://ipafont.ipa.go.jp/old/ipafont/download.html)
+- [Windows Subsystem for Linux](https://docs.microsoft.com/ja-jp/windows/wsl/install-win10)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定を行う。
