@@ -86,6 +86,19 @@ npm i --global windows-build-tools
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定を行う。
 
+### Windows Subsystem for Linux
+
+Install Python3 and pip.
+
+```bash
+sudo apt-get install python3 python3-distutils
+curl -kL https://bootstrap.pypa.io/get-pip.py | sudo python3
+```
+
+## 環境変数
+
+- `Path`: `%USERPROFILE%\bin;%USERPROFILE%\go\bin;%APPDATA%\npm;%APPDATA%\Composer\vendor\bin;C:\Program Files\Oracle\VirtualBox;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps`
+
 ### GreenShot
 以下の画像のような設定にする。
 設定ファイルには、設定のみならず、キャッシュやヒストリーなどの情報も含まれており、バージョン管理の対象に含めるべきではなかった。
@@ -98,6 +111,3 @@ npm i --global windows-build-tools
 ![2017-07-06_16-17-58_000042](https://user-images.githubusercontent.com/2140131/27899818-bd3a17ee-6266-11e7-9e18-df942ed158d1.png)
 ![2017-07-06_16-17-59_000043](https://user-images.githubusercontent.com/2140131/27899819-bd3b0dd4-6266-11e7-910c-cecc068a68e0.png)
 
-## 環境変数
-
-- `Path`: `%USERPROFILE%\bin;%USERPROFILE%\go\bin;%APPDATA%\npm;%APPDATA%\Composer\vendor\bin;C:\Program Files\Oracle\VirtualBox;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps`
