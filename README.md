@@ -1,4 +1,4 @@
-# my_windows_builder
+# Bootstrap My Windows PC
 my windows working environment build scripts
 
 開発環境のセットアップすることは、「マシンを1台セットアップする」ことに他ならないので、[Provisioning Toolchain](https://conferences.oreilly.com/velocity/velocity-mar2010/public/schedule/detail/14180)の概念に則って説明する。
