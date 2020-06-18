@@ -48,8 +48,8 @@ cinst -y 7zip ChromeDriver2 ffmpeg git greenshot mysql.workbench plantuml sysint
 - [Notepad++](https://notepad-plus-plus.org/download/)
 - [linkshellextension](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
 - [OBS Studio](https://obsproject.com/)
-- [IPAフォント](https://ipafont.ipa.go.jp/old/ipafont/download.html)
-- [Windows Subsystem for Linux](https://docs.microsoft.com/ja-jp/windows/wsl/install-win10)
+- [IPAフォント](https://ipafont.ipa.go.jp/)
+- [Windows Subsystem for Linux](http://aka.ms/wsl)
 - [Discord](https://discordapp.com/)
 
 ## 各ソフトウェアの設定
