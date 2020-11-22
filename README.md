@@ -110,7 +110,7 @@ curl -kL https://bootstrap.pypa.io/get-pip.py | sudo python3
 stow
 
 ```bash
-wet http://ftp.gnu.org/gnu/stow/stow-latest.tar.gz
+wget http://ftp.gnu.org/gnu/stow/stow-latest.tar.gz
 tar xf stow-latest.tar.gz
 ```
 
