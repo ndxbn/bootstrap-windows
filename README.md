@@ -37,7 +37,7 @@ Windows 10 では、最初から Chocolatey がインストールされている
 このコードは1行になっているため、トリプルクリックで全体を選択することができます。
 
 ```powershell
-cinst -y 7zip ChromeDriver2 ffmpeg git greenshot mysql.workbench plantuml sysinternals
+cinst -y 7zip ChromeDriver2 ffmpeg git greenshot mysql.workbench plantuml sysinternals deno
 ```
 
 ## Install Manually
