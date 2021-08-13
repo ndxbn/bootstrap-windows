@@ -49,6 +49,7 @@ cinst -y 7zip ChromeDriver2 ffmpeg git greenshot mysql.workbench plantuml sysint
 - [linkshellextension](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
 - [OBS Studio](https://obsproject.com/)
 - [IPAフォント](https://ipafont.ipa.go.jp/)
+- [PlemolJP フォント](https://github.com/yuru7/PlemolJP)（Nerd Font の 3:5 版を使う）
 - [Windows Subsystem for Linux](http://aka.ms/wsl)
 - [Discord](https://discordapp.com/)
 
