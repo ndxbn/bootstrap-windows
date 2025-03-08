@@ -53,6 +53,7 @@ cinst -y 7zip ChromeDriver2 ffmpeg git greenshot mysql.workbench plantuml sysint
 - [PlemolJP フォント](https://github.com/yuru7/PlemolJP)（日本語文字優先 NFJ の 3:5 版を使う）
 - [Windows Subsystem for Linux](http://aka.ms/wsl)
 - [Discord](https://discordapp.com/)
+- [Power Toys](https://aka.ms/powertoys)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定。
