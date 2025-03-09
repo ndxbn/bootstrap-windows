@@ -29,31 +29,19 @@ my windows working environment build scripts
 - [Chocolatey をインストールし、Chocolatey でインストール](#install-via-chocolatey)
 - [いくつかのソフトウェアを、手動でインストール](#install-manually)
 
-## Install via Chocolatey
-Windows 10 では、最初から Chocolatey がインストールされているはずです。されていなかったら、自分でインストールしてください。
-[Chocolatey の公式ページはこちら](https://chocolatey.org/install)。
+## Install via　winget
 
-### Install Command and Library Packages
-以下のコードをコピペして実行してください。
-このコードは1行になっているため、トリプルクリックで全体を選択することができます。
+https://github.com/ndxbn/bootstrap-windows/blob/main/winget.json
 
 ```powershell
-cinst -y 7zip ChromeDriver2 ffmpeg git greenshot mysql.workbench plantuml sysinternals deno
+winget import winget.json
 ```
 
 ## Install Manually
-諸事情で Chocolatey を使用せずに手動でインストールするもの。
+諸事情により手動でインストールするもの。
 
-- [Google IME](https://www.google.co.jp/ime/)
-- [Jetbrains Toolbox App](https://www.jetbrains.com/toolbox/app/)（IntelliJ などの IDE は、toolbox 経由で管理）
-- [Notepad++](https://notepad-plus-plus.org/download/)
-- [linkshellextension](http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html#contact)
-- [OBS Studio](https://obsproject.com/)
 - [IPAフォント](https://ipafont.ipa.go.jp/)
 - [PlemolJP フォント](https://github.com/yuru7/PlemolJP)（日本語文字優先 NFJ の 3:5 版を使う）
-- [Windows Subsystem for Linux](http://aka.ms/wsl)
-- [Discord](https://discordapp.com/)
-- [Power Toys](https://aka.ms/powertoys)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定。
