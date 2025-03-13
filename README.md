@@ -12,22 +12,8 @@ my windows working environment build scripts
 いくつかのディレクトリの作成や、構成の変更などを行います。
 これらは、ソフトウェアのインストールや Windows の挙動そのものを変更するものが含まれるため、最初に行ってください。
 
-## D:ドライブがある場合
-もし、複数台の補助記憶装置がマウントされている場合、マイドキュメントやマイピクチャなどの「ライブラリ」ディレクトリを貼り直すべきです。
-この作業は、セーフモードで起動して行う必要があります。。
-事前にどのディレクトリをどのようにマップし直すかを検討し、実施してください。
-
-普段は、「ライブラリ」にあるディレクトリすべてを、 `D:\Users\%UserName%` へ移動し、シンボリックリンクを作成しています。
-「ライブラリ」のディレクトリ以外は、キャッシュなどの都合で頻繁にアクセスされるため、より高速であることが期待される C:ドライブ に残しておくことが多いです。
-
-ディスクのマウントは、管理者権限のあるユーザで行うが、ディレクトリの構成変更は、セーフモードで実施する必要があります。
-理由は、ユーザのログインそのものに影響するため。
-
 # Installation
-常用している各種ソフトウェアやライブラリなどのインストールについて。
-
-- [Chocolatey をインストールし、Chocolatey でインストール](#install-via-chocolatey)
-- [いくつかのソフトウェアを、手動でインストール](#install-manually)
+常用している各種ソフトウェアやライブラリなどのインストールをします。
 
 ## Install via　winget
 
@@ -47,6 +33,9 @@ winget import winget.json
 インストールしたソフトウェアの設定。
 
 ## 環境変数
+
+> [!NOTE]
+> winget を使うようにため、もしかしたら、PATH の設定はもはや不要かもしれません。
 
 - `Path`: `%USERPROFILE%\bin;%USERPROFILE%\go\bin;%APPDATA%\npm;%APPDATA%\Composer\vendor\bin;C:\Program Files\Oracle\VirtualBox;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps`
 
