@@ -26,7 +26,6 @@ winget import winget.json
 ## Install Manually
 諸事情により手動でインストールするもの。
 
-- [IPAフォント](https://ipafont.ipa.go.jp/)
 - [PlemolJP フォント](https://github.com/yuru7/PlemolJP)（日本語文字優先 NFJ の 3:5 版を使う）
 
 ## 各ソフトウェアの設定
