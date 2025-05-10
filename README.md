@@ -27,6 +27,7 @@ winget import winget.json
 諸事情により手動でインストールするもの。
 
 - [PlemolJP フォント](https://github.com/yuru7/PlemolJP)（日本語文字優先 NFJ の 3:5 版を使う）
+- [DXP4800 Plus Client](https://nas.ugreen.jp/pages/download-center)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定。
@@ -34,9 +35,7 @@ winget import winget.json
 ## 環境変数
 
 > [!NOTE]
-> winget を使うようにため、もしかしたら、PATH の設定はもはや不要かもしれません。
-
-- `Path`: `%USERPROFILE%\bin;%USERPROFILE%\go\bin;%APPDATA%\npm;%APPDATA%\Composer\vendor\bin;C:\Program Files\Oracle\VirtualBox;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps`
+> winget を使うようになってからは不要になりました。
 
 ### GreenShot
 以下の画像のような設定にします。
