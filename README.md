@@ -26,7 +26,7 @@ winget import winget.json
 ## Install Manually
 諸事情により手動でインストールするもの。
 
-- [PlemolJP フォント](https://github.com/yuru7/PlemolJP)（日本語文字優先 NFJ の 3:5 版を使う）
+- [PlemolJP フォント](https://github.com/yuru7/PlemolJP)：日本語文字優先 NFJ の 3:5 版を使う。太さは `Text` と `Italic` のみで良い
 - [DXP4800 Plus Client](https://nas.ugreen.jp/pages/download-center)
 
 ## 各ソフトウェアの設定
