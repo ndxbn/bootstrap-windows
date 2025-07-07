@@ -28,6 +28,8 @@ winget import winget.json
 
 - [PlemolJP フォント](https://github.com/yuru7/PlemolJP)：日本語文字優先 NFJ の 3:5 版を使う。太さは `Text` と `Italic` のみで良い
 - [DXP4800 Plus Client](https://nas.ugreen.jp/pages/download-center)
+- [astah* professional](https://astah.change-vision.com/ja/download.html)
+- [astah* professional template](https://github.com/ndxbn/astah-template)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定。
