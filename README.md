@@ -15,7 +15,7 @@ my windows working environment build scripts
 # Installation
 常用している各種ソフトウェアやライブラリなどのインストールをします。
 
-## Install via　winget
+## Install via winget
 
 https://github.com/ndxbn/bootstrap-windows/blob/main/winget.json
 
