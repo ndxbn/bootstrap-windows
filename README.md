@@ -30,6 +30,7 @@ winget import winget.json
 - [DXP4800 Plus Client](https://nas.ugreen.jp/pages/download-center)
 - [astah* professional](https://astah.change-vision.com/ja/download.html)
 - [astah* professional template](https://github.com/ndxbn/astah-template)
+- [`bin/` ディレクトリ](https://github.com/ndxbn/bin-windows)
 
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定。
