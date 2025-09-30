@@ -1,1 +1,0 @@
-"%APPDATA%\npm\yarn.cmd" %*
