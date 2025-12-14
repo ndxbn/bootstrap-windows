@@ -1,12 +1,10 @@
 # Bootstrap My Windows PC
 
-my windows working environment build scripts
-
 開発環境のセットアップすることは、「マシンを1台セットアップする」ことに他ならないので、[Provisioning Toolchain](https://conferences.oreilly.com/velocity/velocity-mar2010/public/schedule/detail/14180)の概念に則って説明します。
 
-- `Bootstraping` は、[Bootstraping](#bootstraping) を参照
-- `Configuration` は、 [Installation](#installation) を参照
-- `Orchestration` は、現状はない
+- `Bootstraping` : [Bootstraping](#bootstraping) を参照
+- `Configuration`  : [Installation](#installation) を参照
+- `Orchestration`  : nothing todo
 
 # Bootstraping
 いくつかのディレクトリの作成や、構成の変更などを行います。
@@ -35,14 +33,17 @@ winget import winget.json
 ## 各ソフトウェアの設定
 インストールしたソフトウェアの設定。
 
-## 環境変数
+### 環境変数
 
-> [!NOTE]
-> winget を使うようになってからは不要になりました。
+winget を使うようになってからは不要になりました。
 
 ### GreenShot
-以下の画像のような設定にします。
-設定ファイルには、設定のみならず、キャッシュやヒストリーなどの情報も含まれており、バージョン管理の対象に含めるべきではなかったので、こうなっています。
+GUI の設定画面から手動で設定する必要があります。
+設定ファイルには、設定のみならず、キャッシュやヒストリーなどの情報も含まれているため、環境ごとに手動でセットアップする必要があります。
+
+コピペ用
+
+- `${YYYY}-${MM}-${DD}_${hh}-${mm}-${ss}_${NUM}`
 
 ![2017-07-06_16-18-00_000044](https://user-images.githubusercontent.com/2140131/27899813-bd16fd68-6266-11e7-8be6-c6d1a3ca7759.png)
 ![2017-07-06_16-18-01_000045](https://user-images.githubusercontent.com/2140131/27899815-bd1f0468-6266-11e7-8a1e-03e066817dd4.png)
@@ -52,7 +53,6 @@ winget import winget.json
 ![2017-07-06_16-17-58_000042](https://user-images.githubusercontent.com/2140131/27899818-bd3a17ee-6266-11e7-9e18-df942ed158d1.png)
 ![2017-07-06_16-17-59_000043](https://user-images.githubusercontent.com/2140131/27899819-bd3b0dd4-6266-11e7-910c-cecc068a68e0.png)
 
-`${YYYY}-${MM}-${DD}_${hh}-${mm}-${ss}_${NUM}`
 
 ## Windows Subsystem for Linux
 
@@ -60,8 +60,6 @@ winget import winget.json
 
 ## Google Chrome のいくつかのページを個別のアプリ化する
 
-- https://www.nict.go.jp/JST/JST6/
 - https://keep.google.com/
-- https://www.youtube.com/
-- https://www.twitch.tv/
+- https://tasks.google.com/
 - YouTube Live のライブ配信ダッシュボード
