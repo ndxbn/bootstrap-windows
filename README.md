@@ -13,7 +13,9 @@
 # Installation
 常用している各種ソフトウェアやライブラリなどのインストールをします。
 
-## Install via winget
+## Install via winget / scoop
+
+// TBD
 
 https://github.com/ndxbn/bootstrap-windows/blob/main/winget.json
 
